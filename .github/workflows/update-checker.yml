@@ -21,10 +21,10 @@ env:
   REPO_PATH_HelloWorld : "helloworld"
 
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: 0 */2 * * *
+#on:
+  #workflow_dispatch:
+  #schedule:
+    #- cron: 0 */2 * * *
 
 jobs:
   check:
